@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/*
+
+h1,h2{
+    color: rgb(9, 197, 9);
+    
+}
+
+ */
+
+
+h1{
+    
+    font-size: 50px;
+    margin-bottom: 20px;
+   
+}
+
+h2{
+    
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: green;
+  
+}
+
+p{
+    
+    text-align: justify;
+    
+}
+
+/* to work with multiple same kind of tag we need class and 
+tags */
+/* for class */
+
+/* for paragraph */
+.main-text{
+    text-align: justify;
+    margin-bottom: 10px;
+
+}
+/* for id */
+#author-text{
+    font-size: 22px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+/* work with div class */
+
+.container{
+    
+    width: 1140px;
+   
+    margin: 20px auto 0 auto;
+    
+    /* 
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0;
+     margin-left: auto;
+     */
+}
+
+.blog-post{
+    
+    /*background-color: #0000ff;  */
+    width: 75%;
+    float: left;/* for adding side by side and counter part of
+    the float is clear property */
+
+    /* 
+    
+    
+    */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+
+.author-box{
+    margin-left: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(79, 12, 236);
+}
+
+.author-box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+
+
+
+.other-post{
+    
+    width: 25%;
+    float: left;/* for side by side */
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.other{
+    margin-bottom: 40px;
+}
+
+.blog-post img{
+    height: 150px;
+    width: auto;
+}
+
+
+
+/* padding border and margine   */
+
